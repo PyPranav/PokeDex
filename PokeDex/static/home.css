@@ -1,0 +1,761 @@
+/* https://codepen.io/P1N2O/pen/pyBNzX */
+body {
+	background: linear-gradient(-45deg, #5e6d3d, #49413c, #344675, #34756f);
+	background-size: 7000% 7000%;
+    animation: gradient 15s ease infinite;
+    color: #ffffff;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.flexsearch--wrapper {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; 
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 60px;
+  padding: 0 46px 0 10px;
+	border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 5px;
+  margin-top: 15px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.flexsearch--submit {
+  position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+  padding: 0;
+  border: none;
+	margin-top: 20px; /* margin-top + border-width */
+  margin-right: 5px; /* border-width */
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+/* https://codepen.io/FelixRilling/pen/qzfoc */
+#Pokedex-div {
+    z-index: 3;
+    position: absolute;
+   text-align: center;
+   left: 50%;
+   transform: translate(-50%, 0);
+}
+#Pokedex {
+    text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+    color: #ff0000;
+    font-family: "Press Start 2P";
+    font-size: 8vw;
+  }
+
+#Pokedex:hover {
+    text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+    -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+    animation: neon4 1.5s ease-in-out infinite alternate;
+  } 
+  @-webkit-keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8800, 0 0 70px #ff8800, 0 0 80px #ff8800, 0 0 100px #ff8800, 0 0 150px #ff8800;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff8800, 0 0 35px #ff8800, 0 0 40px #ff8800, 0 0 50px #ff8800, 0 0 75px #ff8800;
+    }
+  }
+  /*glow for mozilla*/
+  @-moz-keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8800, 0 0 70px #ff8800, 0 0 80px #ff8800, 0 0 100px #ff8800, 0 0 150px #ff8800;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff8800, 0 0 35px #ff8800, 0 0 40px #ff8800, 0 0 50px #ff8800, 0 0 75px #ff8800;
+    }
+  }
+  /*glow*/
+  @keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8800, 0 0 70px #ff8800, 0 0 80px #ff8800, 0 0 100px #ff8800, 0 0 150px #ff8800;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff8800, 0 0 35px #ff8800, 0 0 40px #ff8800, 0 0 50px #ff8800, 0 0 75px #ff8800;
+    }
+  }
+  
+
+  
+  @media (max-width: 650px) {
+    #container {
+      width: 100%;
+    }
+    p {
+      font-size: 3.5em;
+    }
+  }
+
+  #home-pic  {
+    display: block;
+    z-index: -1;
+    /* margin-top: -20%; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    z-index:-1;
+    height: auto;
+    opacity: 0.5;
+  }
+
+  /* css for pokemon.html */
+  #Poke-name{
+    position: absolute;
+    width: 346px;
+    height: 84px;
+    left: 97px;
+    top: 62px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+  }
+  #Poke-img{
+    position: absolute;
+    width: 371px;
+    height: 371px;
+    left: 190px;
+    top: 213px;
+  }
+  #dex-no{
+    position: absolute;
+    width: 167px;
+    height: 84px;
+    left: 477px;
+    top: 500px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    color: #D2D2D2;
+  }
+ .Steel-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #699EAA;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+ }
+.Steel-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #699EAA;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Psychic-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #F85888;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Psychic-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #F85888;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Bug-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #A8B820;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Bug-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #A8B820;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Dark-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #705848;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Dark-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #705848;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Dragon-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #7038F8;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Dragon-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #7038F8;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Electric-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #F8D030;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Electric-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #F8D030;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Fairy-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #EE99AC;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Fairy-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #EE99AC;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Fighting-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #C03028;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Fighting-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #C03028;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Fire-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #F08030;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Fire-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #F08030;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Flying-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #A890F0;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Flying-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #A890F0;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Ghost-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #705898;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Ghost-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #705898;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Grass-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #78C850;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Grass-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #78C850;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Ground-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #E0C068;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Ground-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #E0C068;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Ice-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #98D8D8;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Ice-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #98D8D8;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Normal-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #A8A878;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Normal-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #A8A878;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Poison-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #A040A0;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Poison-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #A040A0;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Rock-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #B8A038;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Rock-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #B8A038;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Water-btn-1{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 905px;
+    top: 129px;
+    background: #6890F0;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.Water-btn-2{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 1139px;
+    top: 129px;
+    
+    background: #6890F0;
+    border-radius: 2em;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+#height-head{
+    position: absolute;
+    width: 86px;
+    height: 34px;
+    left: 930px;
+    top: 196px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #D2D2D2;
+}
+
+#weight-head{
+    position: absolute;
+    width: 86px;
+    height: 34px;
+    left: 1164px;
+    top: 196px;
+
+    font-family: Roboto;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #D2D2D2;
+
+}
+
+#height{
+        
+    position: absolute;
+    width: min-content;
+    height: 56px;
+    left: 815px;
+    top: 218px;
+    transform: translate(+100%, 0);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+#weight{
+    position: absolute;
+    width: min-content;
+    height: 56px;
+    left: 1010px;
+    top: 218px;
+    transform: translate(+100%, 0);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;  
+}
+
+#Description-head{
+    position: absolute;
+    width: 86px;
+    height: 34px;
+    left: 1040px;
+    top: 360px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    /* font-weight: bold;    */
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #D2D2D2;
+}
+
+#Description{
+    position: absolute;
+    width: 369px;
+    height: 234px;
+    left: 905px;
+    top: 436px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.single-btn{
+    left: 1019px;
+    /* top: 129px; */
+}

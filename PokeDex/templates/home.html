@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex | Pokemon Database</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}" />
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+</head>
+<body>
+    <!-- Search Box -->
+    <div class="flexsearch">
+		<div class="flexsearch--wrapper">
+			<form class="flexsearch--form" action="pokemon" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+				<div class="flexsearch--input-wrapper">
+					<input name='search-box' class="flexsearch--input" type="search" placeholder="Search Any Pokemon">
+				</div>
+				<input class="flexsearch--submit" type="submit" value="&#10140;"/>
+			</form>
+        </div>
+    <!-- End of Search Box -->
+    {% block body %}
+    <div id='Pokedex-div'>
+        <h1 id='Pokedex'>Pokedex</h1>
+    </div>
+    <img id='home-pic' src="https://cdn.discordapp.com/attachments/707881046976233504/747708989071949824/edit.png">
+
+</div>
+{% endblock body %}
+</body>
+</html>
