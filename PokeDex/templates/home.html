@@ -15,7 +15,7 @@
 			<form class="flexsearch--form" action="pokemon" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
 				<div class="flexsearch--input-wrapper">
-					<input name='search-box' class="flexsearch--input" type="search" placeholder="Search Any Pokemon">
+					<input name='search-box' class="flexsearch--input" type="search" placeholder="Search Any Pokemon" required>
 				</div>
 				<input class="flexsearch--submit" type="submit" value="&#10140;"/>
 			</form>
