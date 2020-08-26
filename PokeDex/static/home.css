@@ -792,14 +792,7 @@ border-radius: 50%;
 opacity: 0.5;
 }
 
-#cirlce_1:hover{
-  position: absolute;
-  width: 87px;
-  height: 87px;
-  left: 118px;
-  top: 590px;
-  border-radius: 50%;
-  /* background: #000000; */
+#circle_container_1:hover #circle_1{
   opacity: 1;
 }
 
@@ -813,4 +806,7 @@ border-radius: 50%;
 opacity: 0.5;
 
 /* background: url(376.png), #000000; */
+}
+#circle_container_2:hover #circle_2{
+  opacity: 1;
 }

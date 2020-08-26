@@ -43,16 +43,19 @@ function update(index_num)
             console.log(Data.length);
             if (Data.length == 2)
             {
-                console.log(document.getElementById('circle_container'));
-                document.getElementById('circle_container').innerHTML = `
+                console.log(document.getElementById('circle_container_1'));
+                document.getElementById('circle_container_1').innerHTML = `
                 <img id='circle_1' onclick = update(${(index_num+1)%Data.length}) src=${Data[(index_num+1)%Data.length].sprite}></img>
                 `
             }
             else if (Data.length == 3)
             {
-                console.log(document.getElementById('circle_container'));
-                document.getElementById('circle_container').innerHTML = `
+                console.log(document.getElementById('circle_container_1'));
+                document.getElementById('circle_container_1').innerHTML = `
                 <img id='circle_1' onclick = update(${(index_num+1)%Data.length}) src=${Data[(index_num+1)%Data.length].sprite}></img>
+                `
+                console.log(document.getElementById('circle_container_2'));
+                document.getElementById('circle_container_2').innerHTML = `
                 <img id='circle_2' onclick = update(${(index_num+2)%Data.length}) src=${Data[(index_num+2)%Data.length].sprite}></img>
                 `
             }
