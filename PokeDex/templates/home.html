@@ -12,10 +12,10 @@
     <!-- Search Box -->
     <div class="flexsearch">
 		<div class="flexsearch--wrapper">
-			<form class="flexsearch--form" action="pokemon" method="post" enctype="multipart/form-data">
+			<form class="flexsearch--form" action="pokemon" method="post" enctype="multipart/form-data" >
                 {% csrf_token %}
-				<div class="flexsearch--input-wrapper">
-					<input name='search-box' class="flexsearch--input" type="search" placeholder="Search Any Pokemon" required>
+				<div class="flexsearch--input-wrapper" >
+					<input name='search-box' class="flexsearch--input" type="search" placeholder="Search Any Pokemon" required >
 				</div>
 				<input class="flexsearch--submit" type="submit" value="&#10140;"/>
 			</form>

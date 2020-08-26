@@ -20,6 +20,7 @@ def pokemon(request):
                 r = list(data.values())[name-1]
             except Exception:
                 pokemon = list(data.keys())
+                name = name.title()
                 name = get_close_matches(name, pokemon)[0]
                 print(name)
                 r = data[name]
