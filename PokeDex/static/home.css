@@ -1,4 +1,6 @@
 /* https://codepen.io/P1N2O/pen/pyBNzX */
+@media screen and (min-width: 1300px)
+{
 body {
 	background: linear-gradient(-45deg, #5e6d3d, #49413c, #344675, #34756f);
 	background-size: 7000% 7000%;
@@ -201,7 +203,7 @@ input:-moz-placeholder {
     width: 167px;
     height: 84px;
     left: 477px;
-    top: 500px;
+    top: 550px;
 
     font-family: Roboto;
     font-style: normal;
@@ -809,4 +811,387 @@ opacity: 0.5;
 }
 #circle_container_2:hover #circle_2{
   opacity: 1;
+}
+}
+
+
+
+/* mobile css */
+
+
+
+@media screen and (max-width: 1300px)
+{
+  /* homepage */
+  body {
+    background: linear-gradient(-45deg, #5e6d3d, #49413c, #344675, #34756f);
+    background-size: 7000% 7000%;
+      animation: gradient 15s ease infinite;
+      color: #ffffff;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .flexsearch--wrapper {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+    position: static;
+  }
+    
+  .flexsearch--form {
+    overflow: hidden;
+    position: relative;
+  }
+    
+  .flexsearch--input-wrapper {
+    padding: 0 66px 0 0; 
+    overflow: hidden;
+  }
+  
+  .flexsearch--input {
+    width: 100%;
+  }
+  
+  .flexsearch--input {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+     height: 60px;
+    padding: 0 46px 0 10px;
+    border-color: #888;
+    border-radius: 35px; /* (height/2) + border-width */
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 15px;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 26px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+    
+  .flexsearch--submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: none;
+    margin-top: 20px; /* margin-top + border-width */
+    margin-right: 5px; /* border-width */
+    background: transparent;
+    color: #888;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  
+  .flexsearch--input:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  .flexsearch--input:focus.flexsearch--submit {
+     color: #333; 
+  }
+  
+  .flexsearch--submit:hover {
+    color: #333;
+    cursor: pointer;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;  
+  }
+  
+  input:-moz-placeholder {
+    color: #888
+  }
+  /* https://codepen.io/FelixRilling/pen/qzfoc */
+  #Pokedex-div {
+      z-index: 3;
+      position: absolute;
+     text-align: center;
+     left: 50%;
+     transform: translate(-50%, 0);
+  }
+  #Pokedex {
+      text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+      color: #ff0000;
+      font-family: "Press Start 2P";
+      font-size: 8vw;
+    }
+  
+  #Pokedex:hover {
+      text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+      -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+      -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+      animation: neon4 1.5s ease-in-out infinite alternate;
+    } 
+    @-webkit-keyframes neon4 {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8800, 0 0 70px #ff8800, 0 0 80px #ff8800, 0 0 100px #ff8800, 0 0 150px #ff8800;
+      }
+      to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff8800, 0 0 35px #ff8800, 0 0 40px #ff8800, 0 0 50px #ff8800, 0 0 75px #ff8800;
+      }
+    }
+    /*glow for mozilla*/
+    @-moz-keyframes neon4 {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8800, 0 0 70px #ff8800, 0 0 80px #ff8800, 0 0 100px #ff8800, 0 0 150px #ff8800;
+      }
+      to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff8800, 0 0 35px #ff8800, 0 0 40px #ff8800, 0 0 50px #ff8800, 0 0 75px #ff8800;
+      }
+    }
+    /*glow*/
+    @keyframes neon4 {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8800, 0 0 70px #ff8800, 0 0 80px #ff8800, 0 0 100px #ff8800, 0 0 150px #ff8800;
+      }
+      to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff8800, 0 0 35px #ff8800, 0 0 40px #ff8800, 0 0 50px #ff8800, 0 0 75px #ff8800;
+      }
+    }
+    
+  
+    
+    @media (max-width: 650px) {
+      #container {
+        width: 100%;
+      }
+      p {
+        font-size: 3.5em;
+      }
+    }
+  
+    #home-pic  {
+      display: block;
+      z-index: -1;
+      /* margin-top: -20%; */
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      z-index:-1;
+      height: auto;
+      opacity: 0.5;
+    }
+  
+  /* pokemon page */
+
+  #Poke-name{
+    position: relative;
+    width: 100%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9vw;
+    line-height: 42px;
+
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  #Poke-img{
+    position: relative;
+    max-width: 100%;
+  }
+
+  #dex-no{
+    position: relative;
+    font-size: 9vw;
+    color: #D2D2D2;
+    max-width: 100%;
+    text-align: right;
+  }
+
+  #circle_1{
+    position: relative;
+    width: 90%;
+    height: 90%;
+  }
+  #circle_2{
+    position: relative;
+    width: 35%;
+    height: 35%;
+  }
+
+  .float-container {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .float-child-1 {
+    width: 19%;
+    float: left;
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+  }  
+  .float-child-2 {
+    width: 52%;
+    float: left;
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+  }   
+  .btn-1{
+    position: relative;
+    border-radius: 2em;
+    width: 135px;
+    height: 42px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    left: 40%;
+    transform: translate(-100%, 0);
+  }
+  .btn-2{
+    position: relative;
+    border-radius: 2em;
+    width: 135px;
+    height: 42px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    left: 60%;
+    transform: translate(-100%, 0);
+  }
+
+  .single-btn{
+    position: relative;
+    border-radius: 2em;
+    width: 135px;
+    height: 42px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .Bug-btn-1, .Bug-btn-2{
+    background: #A8B820;
+  }
+
+  .Flying-btn-1, .Flying-btn-2{
+    background: #A890F0;
+  }
+
+  .Dark-btn-1, .Dark-btn-2{
+    background: #705848;
+  }
+
+  .Dragon-btn-1, .Dragon-btn-2{
+    background: #7038F8;
+  }
+
+  .Electric-btn-1, .Electric-btn-2{
+    background: #F8D030;
+  }
+
+  .Fairy-btn-1, .Fairy-btn-2{
+    background: #EE99AC;
+  }
+
+  .Fighting-btn-1, .Fighting-btn-2{
+    background: #C03028;
+  }
+
+  .Fire-btn-1, .Fire-btn-2{
+    background: #F08030;
+  }
+
+  .Ghost-btn-1, .Ghost-btn-2{
+    background: #705898;
+  }
+
+  .Grass-btn-1, .Grass-btn-2{
+    background: #78C850
+  }
+
+  .Ground-btn-1, .Ground-btn-2{
+    background: #E0C068;
+  }
+
+  .Ice-btn-1, .Ice-btn-2{
+    background: #98D8D8;
+  }
+
+  .Normal-btn-1, .Normal-btn-2{
+    background: #A8A878;
+  }
+
+  .Poison-btn-1, .Poison-btn-2{
+    background: #A040A0;
+  }
+
+  .Psychic-btn-1, .Psychic-btn-2{
+    background: #F85888;
+  }
+
+  .Rock-btn-1, .Rock-btn-2{
+    background: #B8A038;
+  }
+
+  .Steel-btn-1, .Steel-btn-2{
+    background: #B8B8D0;
+  }
+
+  .Water-btn-1, .Water-btn-2{
+    background: #6890F0;
+  }
+
+  #height-head{
+    position: relative;
+    font-size: 5vw;
+    text-align: center;
+  }
+  #weight-head{
+    position: relative;
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .float-child{
+    width: 50%;
+    float: left;
+  }
+
+  #height, #weight{
+    position: relative;
+    font-size: 9vw;
+    text-align: center;
+    /* padding:0px; */
+    margin:0px;
+  }
+
+  #Description-head{
+    position: relative;
+    font-size: 5vw;
+    margin-top: 150px ;
+    text-align: center;
+  }
+
+  #Description{
+    position: relative;
+    font-size: 7vw;
+    /* margin-top: 150px ; */
+    text-align: center;
+  }
 }

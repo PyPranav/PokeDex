@@ -25,7 +25,7 @@ function update(index_num)
             let str = '';
             if (types.length != 1){
             for (let z = 0; z<types.length; z++){
-                str+=`<button type='button' class='${types[z]}-btn-${z+1}'>${types[z]}</button> `;
+                str+=`<button type='button' class='${types[z]}-btn-${z+1} btn-${z+1}'>${types[z]}</button> `;
             }}
             else{
                 str = `<button type='button' class='${types[0]}-btn-${1} single-btn'>${types[0]}</button> `
