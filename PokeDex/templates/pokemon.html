@@ -29,5 +29,7 @@ Height
 
 </div>
 
-<script src="{% static 'pokemon.js' %}"></script>
+<script src="{% static 'pokemon.js' %}?{% now "U" %}""></script>
+<div id='circle_container'>
+</div>
 {% endblock body %}
