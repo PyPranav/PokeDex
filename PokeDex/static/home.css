@@ -1055,9 +1055,10 @@ opacity: 0.5;
   }   
   .btn-1{
     position: relative;
-    border-radius: 2em;
-    width: 135px;
-    height: 42px;
+    border-radius: 5em;
+    width: 200px;
+    height: 70px;
+    font-size: 35px;
     border: 1px solid #ffffff;
     color: #ffffff;
     left: 40%;
@@ -1065,9 +1066,10 @@ opacity: 0.5;
   }
   .btn-2{
     position: relative;
-    border-radius: 2em;
-    width: 135px;
-    height: 42px;
+    border-radius: 5em;
+    font-size: 35px;
+    width: 200px;
+    height: 70px;
     border: 1px solid #ffffff;
     color: #ffffff;
     left: 60%;
@@ -1076,9 +1078,10 @@ opacity: 0.5;
 
   .single-btn{
     position: relative;
-    border-radius: 2em;
-    width: 135px;
-    height: 42px;
+    border-radius: 5em;
+    font-size: 35px;
+    width: 200px;
+    height: 70px;
     border: 1px solid #ffffff;
     color: #ffffff;
     left: 50%;
