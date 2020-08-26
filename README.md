@@ -10,7 +10,7 @@ git clone https://github.com/PyPranav/Image_To_PDF
 pip install -r requirement.txt
 ```
   
-## Image
+## Images
 ### Smartphone :-
   
 ![](https://cdn.discordapp.com/attachments/707881046976233504/748162397205823538/20200826_181959.jpg)
@@ -27,5 +27,5 @@ pip install -r requirement.txt
   
 ![](https://cdn.discordapp.com/attachments/707881046976233504/747812252769452052/unknown.png)
   
-![](https://cdn.discordapp.com/attachments/707881046976233504/747812655821094992/unknown.png)
+![](https://cdn.discordapp.com/attachments/707881046976233504/748163457551040562/unknown.png)
 
