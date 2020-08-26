@@ -15,13 +15,16 @@ def pokemon(request):
         with open('static/poke_name.json', "r") as f:
             data = json.load(f)
         try:
-            name = int(name)
-            r = list(data.values())[name-1]
+            try:
+                name = int(name)
+                r = list(data.values())[name-1]
+            except Exception:
+                pokemon = list(data.keys())
+                name = get_close_matches(name, pokemon)[0]
+                print(name)
+                r = data[name]
         except Exception:
-            pokemon = list(data.keys())
-            name = get_close_matches(name, pokemon)[0]
-            print(name)
-            r = data[name]
+            return render(request, 'Not_found.html')
         with open('static/pokemon.json', 'w') as f:
             json.dump(r, f)
         return render(request, 'pokemon.html', {'name': name})
