@@ -11,6 +11,12 @@ pip install -r requirement.txt
 ```
   
 ## Images
+### Smartphone :-
+  
+![](https://cdn.discordapp.com/attachments/707881046976233504/748162397205823538/20200826_181959.jpg)
+  
+### Desktop:-
+  
 ![](https://cdn.discordapp.com/attachments/707881046976233504/747811518007083018/unknown.png)
   
 ![](https://cdn.discordapp.com/attachments/707881046976233504/748069977017286692/unknown.png)
@@ -21,5 +27,5 @@ pip install -r requirement.txt
   
 ![](https://cdn.discordapp.com/attachments/707881046976233504/747812252769452052/unknown.png)
   
-![](https://cdn.discordapp.com/attachments/707881046976233504/747812655821094992/unknown.png)
+![](https://cdn.discordapp.com/attachments/707881046976233504/748163457551040562/unknown.png)
 
