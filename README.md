@@ -2,7 +2,7 @@
 PokeDex site made with Django
   
 ## Hosted Site:
-https://pypranav.pythonanywhere.com/  
+https://pypranav.pythonanywhere.com/pokedex/ 
 ## Instalation  
 Use git clone to install it on local machine.
 ```bash
