@@ -1,5 +1,5 @@
 function update(index_num)
-{    fetch('static/pokemon.json')
+{    fetch('../static/pokemon.json')
     .then(data => data.json())
     .then(Data => {
         // console.log(data);
