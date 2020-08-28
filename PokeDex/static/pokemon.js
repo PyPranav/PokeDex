@@ -6,6 +6,9 @@ function update(index_num)
         data = Data[index_num];
         {
             let id = data.number;
+            if (data.name == 'Mega Gyarados'){
+                id -= 1;
+            }
             document.getElementById('dex-no').innerHTML = "#"+id;
 
             let poke_name = data.name;
@@ -15,7 +18,26 @@ function update(index_num)
 
             document.getElementById('Poke-name').innerHTML = poke_name;
 
-            let poke_img = data.sprite;
+            index = index_num
+            temp = Data[index].number
+            if (Data[index].name == 'Mega Gyarados'){
+                temp -= 1
+            }
+            if (temp.length==1){
+                temp = '00'+String(temp)
+            }
+            else if (temp.length==2){
+                temp = '0' + String(temp)
+            }
+            console.log(temp);
+            if (index == 0){
+                img_url = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${temp}.png`
+            }
+            else{
+                img_url =  `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${temp}_f${index+1}.png`
+            }
+
+            let poke_img = img_url;
             // console.log(poke_img);
             document.getElementById("Poke-img").src = poke_img;
 
@@ -44,19 +66,74 @@ function update(index_num)
             if (Data.length == 2)
             {
                 console.log(document.getElementById('circle_container_1'));
+
+                index = (index_num+1)%Data.length
+                temp = Data[index].number
+                if (Data[index].name == 'Mega Gyarados'){
+                    temp -= 1
+                }
+                if (temp.length==1){
+                    temp = '00'+String(temp)
+                }
+                else if (temp.length==2){
+                    temp = '0' + String(temp)
+                }
+                console.log(temp);
+                if (index == 0){
+                    img_url = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${temp}.png`
+                }
+                else{
+                    img_url =  `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${temp}_f${index+1}.png`
+                }
+
+
                 document.getElementById('circle_container_1').innerHTML = `
-                <img id='circle_1' onclick = update(${(index_num+1)%Data.length}) src=${Data[(index_num+1)%Data.length].sprite}></img>
+                <img id='circle_1' onclick = update(${(index_num+1)%Data.length}) src=${img_url}></img>
                 `
             }
             else if (Data.length == 3)
             {
                 console.log(document.getElementById('circle_container_1'));
+                
+                index = (index_num+1)%Data.length
+                temp = Data[index].number
+                if (temp.length==1){
+                    temp = '00'+String(temp)
+                }
+                else if (temp.length==2){
+                    temp = '0' + String(temp)
+                }
+                console.log(temp);
+                if (index == 0){
+                    img_url = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${temp}.png`
+                }
+                else{
+                    img_url =  `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${temp}_f${index+1}.png`
+                }
+
                 document.getElementById('circle_container_1').innerHTML = `
-                <img id='circle_1' onclick = update(${(index_num+1)%Data.length}) src=${Data[(index_num+1)%Data.length].sprite}></img>
+                <img id='circle_1' onclick = update(${index}) src=${img_url}></img>
                 `
                 console.log(document.getElementById('circle_container_2'));
+
+                index = (index_num+2)%Data.length
+                temp = Data[index].number
+                if (temp.length==1){
+                    temp = '00'+String(temp)
+                }
+                else if (temp.length==2){
+                    temp = '0' + String(temp)
+                }
+                console.log(temp);
+                if (index == 0){
+                    img_url = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${temp}.png`
+                }
+                else{
+                    img_url =  `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${temp}_f${index+1}.png`
+                }
+
                 document.getElementById('circle_container_2').innerHTML = `
-                <img id='circle_2' onclick = update(${(index_num+2)%Data.length}) src=${Data[(index_num+2)%Data.length].sprite}></img>
+                <img id='circle_2' onclick = update(${(index_num+2)%Data.length}) src=${img_url}></img>
                 `
             }
         }
