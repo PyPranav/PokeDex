@@ -3,10 +3,10 @@ PokeDex site made with Django
   
 ## Hosted Site:
 https://pypranav.pythonanywhere.com/pokedex/ 
-## Instalation  
+## Installation  
 Use git clone to install it on local machine.
 ```bash
-git clone https://github.com/PyPranav/Image_To_PDF
+git clone https://github.com/PyPranav/PokeDex
 pip install -r requirement.txt
 ```
   
