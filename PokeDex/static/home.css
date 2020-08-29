@@ -212,453 +212,38 @@ input:-moz-placeholder {
     line-height: 84px;
     color: #D2D2D2;
   }
- .Steel-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #699EAA;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
- }
-.Steel-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #699EAA;
-    border-radius: 2em;
+ 
+.btn-1{
+  position: absolute;
+  width: 135px;
+  height: 42px;
+  left: 905px;
+  top: 129px;
+  border-radius: 2em;
     border: 1px solid #ffffff;
     color: #ffffff;
 }
 
-.Psychic-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #F85888;
-    border-radius: 2em;
+.btn-2{
+  position: absolute;
+  width: 135px;
+  height: 42px;
+  left: 1139px;
+  top: 129px;
+  border-radius: 2em;
     border: 1px solid #ffffff;
     color: #ffffff;
 }
 
-.Psychic-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #F85888;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Bug-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #A8B820;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Bug-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #A8B820;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Dark-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #705848;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Dark-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #705848;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Dragon-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #7038F8;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Dragon-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #7038F8;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Electric-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #F8D030;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Electric-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #F8D030;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Fairy-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #EE99AC;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Fairy-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #EE99AC;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Fighting-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #C03028;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Fighting-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #C03028;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Fire-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #F08030;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Fire-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #F08030;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Flying-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #A890F0;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Flying-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #A890F0;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Ghost-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #705898;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Ghost-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #705898;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Grass-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #78C850;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Grass-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #78C850;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Ground-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #E0C068;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Ground-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #E0C068;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Ice-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #98D8D8;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Ice-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #98D8D8;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Normal-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #A8A878;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Normal-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #A8A878;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Poison-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #A040A0;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Poison-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #A040A0;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Rock-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #B8A038;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Rock-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #B8A038;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Water-btn-1{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 905px;
-    top: 129px;
-    background: #6890F0;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.Water-btn-2{
-    position: absolute;
-    width: 135px;
-    height: 42px;
-    left: 1139px;
-    top: 129px;
-    
-    background: #6890F0;
-    border-radius: 2em;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+.single-btn{
+  position: absolute;
+  width: 135px;
+  height: 42px;
+  left: 1019px;
+  top: 129px;
+  border-radius: 2em;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 
 #height-head{
@@ -1088,78 +673,6 @@ opacity: 0.5;
     transform: translate(-50%, 0);
   }
 
-  .Bug-btn-1, .Bug-btn-2{
-    background: #A8B820;
-  }
-
-  .Flying-btn-1, .Flying-btn-2{
-    background: #A890F0;
-  }
-
-  .Dark-btn-1, .Dark-btn-2{
-    background: #705848;
-  }
-
-  .Dragon-btn-1, .Dragon-btn-2{
-    background: #7038F8;
-  }
-
-  .Electric-btn-1, .Electric-btn-2{
-    background: #F8D030;
-  }
-
-  .Fairy-btn-1, .Fairy-btn-2{
-    background: #EE99AC;
-  }
-
-  .Fighting-btn-1, .Fighting-btn-2{
-    background: #C03028;
-  }
-
-  .Fire-btn-1, .Fire-btn-2{
-    background: #F08030;
-  }
-
-  .Ghost-btn-1, .Ghost-btn-2{
-    background: #705898;
-  }
-
-  .Grass-btn-1, .Grass-btn-2{
-    background: #78C850
-  }
-
-  .Ground-btn-1, .Ground-btn-2{
-    background: #E0C068;
-  }
-
-  .Ice-btn-1, .Ice-btn-2{
-    background: #98D8D8;
-  }
-
-  .Normal-btn-1, .Normal-btn-2{
-    background: #A8A878;
-  }
-
-  .Poison-btn-1, .Poison-btn-2{
-    background: #A040A0;
-  }
-
-  .Psychic-btn-1, .Psychic-btn-2{
-    background: #F85888;
-  }
-
-  .Rock-btn-1, .Rock-btn-2{
-    background: #B8A038;
-  }
-
-  .Steel-btn-1, .Steel-btn-2{
-    background: #B8B8D0;
-  }
-
-  .Water-btn-1, .Water-btn-2{
-    background: #6890F0;
-  }
-
   #height-head{
     position: relative;
     font-size: 5vw;
@@ -1197,4 +710,76 @@ opacity: 0.5;
     /* margin-top: 150px ; */
     text-align: center;
   }
+}
+
+.Bug-btn-1, .Bug-btn-2{
+  background: #A8B820;
+}
+
+.Flying-btn-1, .Flying-btn-2{
+  background: #A890F0;
+}
+
+.Dark-btn-1, .Dark-btn-2{
+  background: #705848;
+}
+
+.Dragon-btn-1, .Dragon-btn-2{
+  background: #7038F8;
+}
+
+.Electric-btn-1, .Electric-btn-2{
+  background: #F8D030;
+}
+
+.Fairy-btn-1, .Fairy-btn-2{
+  background: #EE99AC;
+}
+
+.Fighting-btn-1, .Fighting-btn-2{
+  background: #C03028;
+}
+
+.Fire-btn-1, .Fire-btn-2{
+  background: #F08030;
+}
+
+.Ghost-btn-1, .Ghost-btn-2{
+  background: #705898;
+}
+
+.Grass-btn-1, .Grass-btn-2{
+  background: #78C850
+}
+
+.Ground-btn-1, .Ground-btn-2{
+  background: #E0C068;
+}
+
+.Ice-btn-1, .Ice-btn-2{
+  background: #98D8D8;
+}
+
+.Normal-btn-1, .Normal-btn-2{
+  background: #A8A878;
+}
+
+.Poison-btn-1, .Poison-btn-2{
+  background: #A040A0;
+}
+
+.Psychic-btn-1, .Psychic-btn-2{
+  background: #F85888;
+}
+
+.Rock-btn-1, .Rock-btn-2{
+  background: #B8A038;
+}
+
+.Steel-btn-1, .Steel-btn-2{
+  background: #B8B8D0;
+}
+
+.Water-btn-1, .Water-btn-2{
+  background: #6890F0;
 }
