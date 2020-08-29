@@ -13,7 +13,7 @@ pip install -r requirement.txt
 ## Images
 ### Smartphone :-
   
-![](https://cdn.discordapp.com/attachments/707881046976233504/748162397205823538/20200826_181959.jpg)
+![](https://lh3.googleusercontent.com/pw/ACtC-3du9yi0xktNdfaqNdSlui92qGQma1gLpTLWeqEa-xZAcixB3-KUJOtNZjxEne1qb79MVK13wZ97IUntclgCVC8dlHdj0iYb0-7igWNyDKfOSFWY0ehlIuJNq4sbDyU9D9plZfBQGqk6x_jlXV76aUPO=w338-h938-no?authuser=0)
   
 ### Desktop:-
   
