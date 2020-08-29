@@ -1,6 +1,4 @@
 /* https://codepen.io/P1N2O/pen/pyBNzX */
-@media screen and (min-width: 1300px)
-{
 body {
 	background: linear-gradient(-45deg, #5e6d3d, #49413c, #344675, #34756f);
 	background-size: 7000% 7000%;
@@ -99,6 +97,13 @@ body {
 input:-moz-placeholder {
   color: #888
 }
+
+
+
+
+
+@media screen and (min-width: 1300px)
+{
 /* https://codepen.io/FelixRilling/pen/qzfoc */
 #Pokedex-div {
     z-index: 3;
@@ -407,105 +412,7 @@ opacity: 0.5;
 
 @media screen and (max-width: 1300px)
 {
-  /* homepage */
-  body {
-    background: linear-gradient(-45deg, #5e6d3d, #49413c, #344675, #34756f);
-    background-size: 7000% 7000%;
-      animation: gradient 15s ease infinite;
-      color: #ffffff;
-  }
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  .flexsearch--wrapper {
-    height: auto;
-    width: auto;
-    max-width: 100%;
-    overflow: hidden;
-    background: transparent;
-    margin: 0;
-    position: static;
-  }
-    
-  .flexsearch--form {
-    overflow: hidden;
-    position: relative;
-  }
-    
-  .flexsearch--input-wrapper {
-    padding: 0 66px 0 0; 
-    overflow: hidden;
-  }
   
-  .flexsearch--input {
-    width: 100%;
-  }
-  
-  .flexsearch--input {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-     height: 60px;
-    padding: 0 46px 0 10px;
-    border-color: #888;
-    border-radius: 35px; /* (height/2) + border-width */
-    border-style: solid;
-    border-width: 5px;
-    margin-top: 15px;
-    color: #333;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 26px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-  }
-    
-  .flexsearch--submit {
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: block;
-    width: 60px;
-    height: 60px;
-    padding: 0;
-    border: none;
-    margin-top: 20px; /* margin-top + border-width */
-    margin-right: 5px; /* border-width */
-    background: transparent;
-    color: #888;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 40px;
-    line-height: 60px;
-  }
-  
-  .flexsearch--input:focus {
-    outline: none;
-    border-color: #333;
-  }
-  
-  .flexsearch--input:focus.flexsearch--submit {
-     color: #333; 
-  }
-  
-  .flexsearch--submit:hover {
-    color: #333;
-    cursor: pointer;
-  }
-  
-  ::-webkit-input-placeholder {
-    color: #888;  
-  }
-  
-  input:-moz-placeholder {
-    color: #888
-  }
   /* https://codepen.io/FelixRilling/pen/qzfoc */
   #Pokedex-div {
       z-index: 3;
@@ -641,32 +548,32 @@ opacity: 0.5;
   .btn-1{
     position: relative;
     border-radius: 5em;
-    width: 200px;
-    height: 70px;
-    font-size: 35px;
+    width: 140px;
+    height: 45px;
+    font-size: 14px;
     border: 1px solid #ffffff;
     color: #ffffff;
-    left: 40%;
+    left: 45%;
     transform: translate(-100%, 0);
   }
   .btn-2{
     position: relative;
     border-radius: 5em;
-    font-size: 35px;
-    width: 200px;
-    height: 70px;
+    font-size: 14px;
+    width: 140px;
+    height: 45px;
     border: 1px solid #ffffff;
     color: #ffffff;
-    left: 60%;
+    left: 55%;
     transform: translate(-100%, 0);
   }
 
   .single-btn{
     position: relative;
     border-radius: 5em;
-    font-size: 35px;
-    width: 200px;
-    height: 70px;
+    font-size: 12px;
+    width: 140px;
+    height: 45px;
     border: 1px solid #ffffff;
     color: #ffffff;
     left: 50%;
