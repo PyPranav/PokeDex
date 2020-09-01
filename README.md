@@ -1,6 +1,6 @@
 # PokeDex
 PokeDex site made with Django
-Note: This is strictly for learning purpose.
+####Note: This is strictly for learning purpose.
   
 ## Hosted Site:
 https://pypranav.pythonanywhere.com/pokedex/ 
