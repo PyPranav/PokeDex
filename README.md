@@ -1,5 +1,6 @@
 # PokeDex
 PokeDex site made with Django
+  
 ####Note: This is strictly for learning purpose.
   
 ## Hosted Site:
